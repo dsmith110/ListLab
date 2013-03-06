@@ -18,13 +18,13 @@ public class Lab3 {
         ex2.add(emp3);
         ex2.add(dog);
 
-        for (Object s : ex2) {
-            if(s instanceof Employee) {
-                Employee e = (Employee)s;
-                System.out.println(e.getName());
-            } else if(s instanceof Dog) {
-                Dog d = (Dog)s;
-                System.out.println(d.getName());
+        for (Object obj : ex2) {
+            if(obj instanceof Employee) {
+//                Employee e = (Employee)s;
+                System.out.println(((Employee)obj).getName());
+            } else if(obj instanceof Dog) {
+//                Dog d = (Dog)s;
+                System.out.println(((Dog)obj).getRabiesId());
             }
         }
         
