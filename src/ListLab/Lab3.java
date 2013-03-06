@@ -10,7 +10,7 @@ public class Lab3 {
         Employee emp1 = new Employee("a", "Dan");
         Employee emp2 = new Employee("b", "John");
         Employee emp3 = new Employee("c", "Jake");
-        Dog dog = new Dog("Fido", "d");
+        Dog dog = new Dog("Fido", "d123");
         
         List ex2 = new ArrayList();
         ex2.add(emp1);
