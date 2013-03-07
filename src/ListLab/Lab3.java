@@ -20,10 +20,10 @@ public class Lab3 {
 
         for (Object obj : ex2) {
             if(obj instanceof Employee) {
-//                Employee e = (Employee)s;
+//                Employee e = (Employee)obj;
                 System.out.println(((Employee)obj).getName());
             } else if(obj instanceof Dog) {
-//                Dog d = (Dog)s;
+//                Dog d = (Dog)obj;
                 System.out.println(((Dog)obj).getRabiesId());
             }
         }
